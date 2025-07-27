@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="FluidSimulator-GL-CUDA\camera\camera.cpp">
+      <Filter>camera</Filter>
+    </ClCompile>
+    <ClCompile Include="FluidSimulator-GL-CUDA\textures\texture.cpp">
+      <Filter>textures</Filter>
+    </ClCompile>
+    <ClCompile Include="FluidSimulator-GL-CUDA\resources\resource_manager.cpp">
+      <Filter>resources</Filter>
+    </ClCompile>
+    <ClCompile Include="FluidSimulator-GL-CUDA\shader\shader.cpp">
+      <Filter>shaders</Filter>
+    </ClCompile>
+    <ClCompile Include="FluidSimulator-GL-CUDA\core\glad.c">
+      <Filter>core</Filter>
+    </ClCompile>
+    <ClCompile Include="FluidSimulator-GL-CUDA\core\main.cpp">
+      <Filter>core</Filter>
+    </ClCompile>
+    <ClCompile Include="FluidSimulator-GL-CUDA\core\renderer.cpp">
+      <Filter>core</Filter>
+    </ClCompile>
+    <ClCompile Include="FluidSimulator-GL-CUDA\cuda\cuda_manager.cpp">
+      <Filter>cuda</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="FluidSimulator-GL-CUDA\camera\camera.h">
+      <Filter>camera</Filter>
+    </ClInclude>
+    <ClInclude Include="FluidSimulator-GL-CUDA\Cuda\kernel.cuh">
+      <Filter>cuda</Filter>
+    </ClInclude>
+    <ClInclude Include="FluidSimulator-GL-CUDA\textures\texture.h">
+      <Filter>textures</Filter>
+    </ClInclude>
+    <ClInclude Include="FluidSimulator-GL-CUDA\resources\stb_image.h">
+      <Filter>resources</Filter>
+    </ClInclude>
+    <ClInclude Include="FluidSimulator-GL-CUDA\resources\resource_manager.h">
+      <Filter>resources</Filter>
+    </ClInclude>
+    <ClInclude Include="FluidSimulator-GL-CUDA\shader\shader.h">
+      <Filter>shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="FluidSimulator-GL-CUDA\core\renderer.h">
+      <Filter>core</Filter>
+    </ClInclude>
+    <ClInclude Include="FluidSimulator-GL-CUDA\cuda\cuda_manager.h">
+      <Filter>cuda</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="FluidSimulator-GL-CUDA\shader\shader.frag">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="FluidSimulator-GL-CUDA\shader\shader.vertex">
+      <Filter>shaders</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="camera">
+      <UniqueIdentifier>{8a6c1e42-49f4-4c27-a4e8-f6e545da1f88}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="core">
+      <UniqueIdentifier>{9666c80a-ffed-4859-818a-cee73f236823}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="resources">
+      <UniqueIdentifier>{4c80616c-4f4b-4f55-8877-fc8be9bdc381}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gfx">
+      <UniqueIdentifier>{f6543bcf-cb72-434c-a5aa-55fbc59b0073}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="cuda">
+      <UniqueIdentifier>{c3e8c899-2ee3-49e5-a857-693b031ca4c0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="shaders">
+      <UniqueIdentifier>{15de6cb3-99ea-4ddf-9a86-fc34e8688db2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="textures">
+      <UniqueIdentifier>{bf60c95d-a95a-43c1-9663-63f0524b63c9}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <CudaCompile Include="FluidSimulator-GL-CUDA\Cuda\kernel.cu">
+      <Filter>cuda</Filter>
+    </CudaCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="FluidSimulator-GL-CUDA\gfx\awesomeface.png">
+      <Filter>gfx</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
