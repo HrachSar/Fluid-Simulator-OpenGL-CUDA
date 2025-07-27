@@ -13,6 +13,7 @@ It solves the **incompressible Navier-Stokes equations**.
 -  **OpenGL real-time rendering** of fluid density or particles
 -  **CUDA–OpenGL interop**: Zero-copy memory sharing between simulation and visualization
 -  **Modular C++ structure** for easy experimentation with simulation components
+-  **Camera Movement** W,A,S,D 
 
  ##  Prerequisites
 
